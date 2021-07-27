@@ -1,13 +1,15 @@
 <template>
+<v-navigation-drawer app>
 
+</v-navigation-drawer>
 </template>
 
 <script>
 export default {
-  name: "index"
-  //test
+  name: "MyAdminNavigationDrawer"
 }
 </script>
+
 <style scoped>
 
 </style>

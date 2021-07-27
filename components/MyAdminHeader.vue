@@ -1,10 +1,12 @@
 <template>
+<v-app-bar app>
 
+</v-app-bar>
 </template>
 
 <script>
 export default {
-  name: "index"
+  name: "MyAdminHeader"
 }
 </script>
 

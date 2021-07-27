@@ -1,10 +1,11 @@
 <template>
-
+<h1>This is a Register Page</h1>
 </template>
 
 <script>
 export default {
-  name: "index"
+  name: "index",
+  layout:"CleanLayout"
 }
 </script>
 
