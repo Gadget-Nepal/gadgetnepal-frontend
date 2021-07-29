@@ -8,28 +8,26 @@
     <v-divider></v-divider>
     <v-list nav>
       <v-list-item class="nav-item" to="/myadmin/dashboard">
-        <v-icon class="mr-4">fas fa-border-all</v-icon>
-        Dashboard</v-list-item
-      >
+        <v-icon class="mr-4">fas fa-border-all</v-icon><span>Dashboard</span>
+      </v-list-item>
       <v-list-item class="nav-item" to="/myadmin/home">
-        <v-icon class="mr-4">fas fa-home</v-icon>
-        Home</v-list-item
+        <v-icon class="mr-4">fas fa-home</v-icon><span>Home</span></v-list-item
       >
       <v-list-item class="nav-item" to="/">
         <v-icon class="mr-4">fas fa-user</v-icon>
-        Account</v-list-item
-      >
+        <span> Account </span>
+      </v-list-item>
       <v-list-item class="nav-item" to="/">
         <v-icon class="mr-4">fas fa-file</v-icon>
-        Form</v-list-item
-      >
+        <span> Form </span>
+      </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
 
 <style scoped>
 * {
-  color: #fff !important;
+  color: white !important;
 }
 .nav-item:hover {
   cursor: pointer;
