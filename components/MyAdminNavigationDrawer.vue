@@ -2,25 +2,24 @@
   <v-navigation-drawer permanent color="#2e7d32" app>
     <v-list>
       <v-list-item>
-        <v-icon class='mr-4'>fas fa-arrow-left</v-icon>
-        <h1>CFS MIS</h1>
+        <v-toolbar-title class="text-h5">CFS MIS</v-toolbar-title>
       </v-list-item>
     </v-list>
     <v-divider></v-divider>
     <v-list nav>
-      <v-list-item class="nav-item">
+      <v-list-item class="nav-item" to="/myadmin/dashboard">
         <v-icon class="mr-4">fas fa-border-all</v-icon>
         Dashboard</v-list-item
       >
-      <v-list-item class="nav-item">
+      <v-list-item class="nav-item" to="/myadmin/home">
         <v-icon class="mr-4">fas fa-home</v-icon>
         Home</v-list-item
       >
-      <v-list-item class="nav-item">
+      <v-list-item class="nav-item" to="/">
         <v-icon class="mr-4">fas fa-user</v-icon>
         Account</v-list-item
       >
-      <v-list-item class="nav-item">
+      <v-list-item class="nav-item" to="/">
         <v-icon class="mr-4">fas fa-file</v-icon>
         Form</v-list-item
       >
